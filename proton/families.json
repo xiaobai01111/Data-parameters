@@ -13,16 +13,6 @@
       "builtin": true
     },
     {
-      "familyKey": "experimental",
-      "displayName": "Proton Experimental",
-      "enabled": true,
-      "sortOrder": 20,
-      "detectPatterns": [
-        "(?i)experimental"
-      ],
-      "builtin": true
-    },
-    {
       "familyKey": "ge-proton",
       "displayName": "GE-Proton",
       "enabled": true,

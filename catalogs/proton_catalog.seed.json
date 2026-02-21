@@ -13,16 +13,6 @@
       "builtin": true
     },
     {
-      "familyKey": "experimental",
-      "displayName": "Proton Experimental",
-      "enabled": true,
-      "sortOrder": 20,
-      "detectPatterns": [
-        "(?i)experimental"
-      ],
-      "builtin": true
-    },
-    {
       "familyKey": "ge-proton",
       "displayName": "GE-Proton",
       "enabled": true,
@@ -119,20 +109,6 @@
       "includePrerelease": false,
       "enabled": true,
       "note": "Default official-like source for non-Steam environments"
-    },
-    {
-      "familyKey": "experimental",
-      "provider": "github_releases",
-      "repo": "Open-Wine-Components/umu-proton",
-      "endpoint": "",
-      "urlTemplate": "",
-      "assetIndex": -1,
-      "assetPattern": "(?i)\\.(tar\\.(gz|xz)|zip)$",
-      "tagPattern": ".*",
-      "maxCount": 20,
-      "includePrerelease": true,
-      "enabled": true,
-      "note": "Default experimental-like source for non-Steam environments"
     },
     {
       "familyKey": "custom",
