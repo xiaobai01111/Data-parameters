@@ -1,0 +1,13 @@
+{
+  "id": "async",
+  "displayName": "DXVK-Async",
+  "provider": "github_releases",
+  "repo": "Sporif/dxvk-async",
+  "endpoint": "",
+  "assetPattern": "(?i)^dxvk-async-.*\\.tar\\.gz$",
+  "downloadUrlTemplate": "https://github.com/Sporif/dxvk-async/releases/download/{version}/{archive}",
+  "archiveNameTemplate": "dxvk-async-{version}.tar.gz",
+  "includePrerelease": false,
+  "enabled": true,
+  "note": "Community async branch (Sporif)"
+}

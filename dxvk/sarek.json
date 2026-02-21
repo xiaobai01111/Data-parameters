@@ -1,0 +1,13 @@
+{
+  "id": "sarek",
+  "displayName": "DXVK-Sarek",
+  "provider": "github_releases",
+  "repo": "pythonlover02/DXVK-Sarek",
+  "endpoint": "",
+  "assetPattern": "(?i)^dxvk-sarek-v.*\\.tar\\.gz$",
+  "downloadUrlTemplate": "https://github.com/pythonlover02/DXVK-Sarek/releases/download/v{version}/{archive}",
+  "archiveNameTemplate": "dxvk-sarek-v{version}.tar.gz",
+  "includePrerelease": false,
+  "enabled": true,
+  "note": "Community Sarek branch"
+}

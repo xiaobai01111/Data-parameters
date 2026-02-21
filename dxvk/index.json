@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "variants": [
     {
       "id": "dxvk",
@@ -9,6 +9,21 @@
     {
       "id": "gplasync",
       "path": "gplasync.json",
+      "enabled": true
+    },
+    {
+      "id": "async",
+      "path": "async.json",
+      "enabled": true
+    },
+    {
+      "id": "sarek",
+      "path": "sarek.json",
+      "enabled": true
+    },
+    {
+      "id": "sarekasync",
+      "path": "sarekasync.json",
       "enabled": true
     }
   ]

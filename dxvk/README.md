@@ -1,6 +1,18 @@
 # DXVK Modules
 
-- `index.json`: variant 索引（id -> 文件路径）
-- `<variant>.json`: 单个 variant 的源定义（如 `dxvk.json`、`gplasync.json`）
+- `index.json`: DXVK 变体索引（模块开关 + 文件路径）。
+- `<variant>.json`: 单个变体的来源定义（provider/repo/pattern/template）。
 
-程序运行时优先读取本目录的模块化结构，`catalogs/dxvk_catalog.json` 作为兼容回退。
+当前模块化变体：
+
+- `dxvk`（官方）
+- `gplasync`
+- `async`
+- `sarek`
+- `sarekasync`
+
+运行时加载顺序：
+
+1. 优先读取本目录模块化结构。
+2. 兼容回退 `catalogs/dxvk_catalog.json`。
+3. 最后回退内置默认配置。
