@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "variants": [
+    {
+      "id": "vkd3d",
+      "path": "vkd3d.json",
+      "enabled": true
+    },
+    {
+      "id": "vkd3d-proton",
+      "path": "vkd3d-proton.json",
+      "enabled": true
+    },
+    {
+      "id": "vkd3d-proton-ge",
+      "path": "vkd3d-proton-ge.json",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "vkd3d-proton-ge",
+  "displayName": "VKD3D-Proton GE",
+  "provider": "github_releases",
+  "repo": "GloriousEggroll/vkd3d-proton",
+  "endpoint": "",
+  "assetPattern": "(?i)^vkd3d-proton-.*\\.(tar\\.zst|tar\\.gz|zip)$",
+  "downloadUrlTemplate": "https://github.com/GloriousEggroll/vkd3d-proton/releases/download/v{version}/{archive}",
+  "archiveNameTemplate": "vkd3d-proton-{version}.tar.zst",
+  "includePrerelease": false,
+  "enabled": true,
+  "note": "GloriousEggroll vkd3d-proton variant"
+}
