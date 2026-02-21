@@ -5,7 +5,7 @@
   "sources": [
     {
       "provider": "github_releases",
-      "repo": "Open-Wine-Components/umu-proton",
+      "repo": "ValveSoftware/Proton",
       "endpoint": "",
       "urlTemplate": "",
       "assetIndex": -1,
@@ -14,7 +14,7 @@
       "maxCount": 20,
       "includePrerelease": false,
       "enabled": true,
-      "note": "Default official-like source for non-Steam environments"
+      "note": "Official Proton source from ValveSoftware/Proton releases (tarball/zipball archive install)"
     }
   ]
 }
