@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "official",
+  "displayName": "Proton (Official)",
+  "sources": [
+    {
+      "provider": "github_releases",
+      "repo": "Open-Wine-Components/umu-proton",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": -1,
+      "assetPattern": "(?i)\\.(tar\\.(gz|xz)|zip)$",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "Default official-like source for non-Steam environments"
+    }
+  ]
+}

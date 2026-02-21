@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "custom",
+  "displayName": "Custom",
+  "sources": [
+    {
+      "provider": "github_releases",
+      "repo": "Open-Wine-Components/umu-proton",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": -1,
+      "assetPattern": "(?i)\\.(tar\\.(gz|xz)|zip)$",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": true,
+      "enabled": true,
+      "note": "Fallback generic source, editable in settings"
+    }
+  ]
+}

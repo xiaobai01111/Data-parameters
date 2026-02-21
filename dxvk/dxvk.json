@@ -1,0 +1,13 @@
+{
+  "id": "dxvk",
+  "displayName": "DXVK",
+  "provider": "github_releases",
+  "repo": "doitsujin/dxvk",
+  "endpoint": "",
+  "assetPattern": "(?i)^dxvk-.*\\.tar\\.gz$",
+  "downloadUrlTemplate": "https://github.com/doitsujin/dxvk/releases/download/v{version}/{archive}",
+  "archiveNameTemplate": "dxvk-{version}.tar.gz",
+  "includePrerelease": false,
+  "enabled": true,
+  "note": "Official DXVK releases"
+}

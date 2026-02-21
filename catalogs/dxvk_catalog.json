@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "variants": [
+    {
+      "id": "dxvk",
+      "displayName": "DXVK",
+      "provider": "github_releases",
+      "repo": "doitsujin/dxvk",
+      "endpoint": "",
+      "assetPattern": "(?i)^dxvk-.*\\.tar\\.gz$",
+      "downloadUrlTemplate": "https://github.com/doitsujin/dxvk/releases/download/v{version}/{archive}",
+      "archiveNameTemplate": "dxvk-{version}.tar.gz",
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "Official DXVK releases"
+    },
+    {
+      "id": "gplasync",
+      "displayName": "DXVK-GPLAsync",
+      "provider": "gitlab_tree",
+      "repo": "Ph42oN/dxvk-gplasync",
+      "endpoint": "https://gitlab.com/api/v4/projects/Ph42oN%2Fdxvk-gplasync/repository/tree?path=releases&per_page={limit}",
+      "assetPattern": "(?i)^dxvk-gplasync-.*\\.tar\\.gz$",
+      "downloadUrlTemplate": "https://gitlab.com/Ph42oN/dxvk-gplasync/-/raw/main/releases/{archive}",
+      "archiveNameTemplate": "dxvk-gplasync-v{version}.tar.gz",
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "DXVK-GPLAsync GitLab release tree"
+    }
+  ]
+}

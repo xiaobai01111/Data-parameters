@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "variants": [
+    {
+      "id": "dxvk",
+      "path": "dxvk.json",
+      "enabled": true
+    },
+    {
+      "id": "gplasync",
+      "path": "gplasync.json",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {
+      "familyKey": "official",
+      "displayName": "Proton (Official)",
+      "enabled": true,
+      "sortOrder": 10,
+      "detectPatterns": [
+        "(?i)^proton\\s*\\d",
+        "(?i)^proton$"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "experimental",
+      "displayName": "Proton Experimental",
+      "enabled": true,
+      "sortOrder": 20,
+      "detectPatterns": [
+        "(?i)experimental"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "ge-proton",
+      "displayName": "GE-Proton",
+      "enabled": true,
+      "sortOrder": 30,
+      "detectPatterns": [
+        "(?i)ge-proton",
+        "(?i)geproton"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "dw-proton",
+      "displayName": "DW-Proton",
+      "enabled": true,
+      "sortOrder": 40,
+      "detectPatterns": [
+        "(?i)dw-proton",
+        "(?i)dwproton"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "proton-cachyos",
+      "displayName": "Proton-CachyOS",
+      "enabled": true,
+      "sortOrder": 50,
+      "detectPatterns": [
+        "(?i)cachyos"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "proton-em",
+      "displayName": "Proton-EM",
+      "enabled": true,
+      "sortOrder": 60,
+      "detectPatterns": [
+        "(?i)proton-em",
+        "(?i)\\bem\\b"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "proton-sarek",
+      "displayName": "Proton-Sarek",
+      "enabled": true,
+      "sortOrder": 70,
+      "detectPatterns": [
+        "(?i)proton-sarek(?!.*async)"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "proton-sarek-async",
+      "displayName": "Proton-Sarek (Async)",
+      "enabled": true,
+      "sortOrder": 80,
+      "detectPatterns": [
+        "(?i)sarek.*async",
+        "(?i)proton-sarek-async"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "proton-tkg",
+      "displayName": "Proton-TKG",
+      "enabled": true,
+      "sortOrder": 90,
+      "detectPatterns": [
+        "(?i)tkg"
+      ],
+      "builtin": true
+    },
+    {
+      "familyKey": "custom",
+      "displayName": "Custom",
+      "enabled": true,
+      "sortOrder": 100,
+      "detectPatterns": [],
+      "builtin": true
+    }
+  ]
+}

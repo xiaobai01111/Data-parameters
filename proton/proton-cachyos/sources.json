@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "proton-cachyos",
+  "displayName": "Proton-CachyOS",
+  "sources": [
+    {
+      "provider": "github_releases",
+      "repo": "CachyOS/proton-cachyos",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": 1,
+      "assetPattern": "(?i)\\.tar\\.(gz|xz)$",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "ProtonPlus default source"
+    }
+  ]
+}

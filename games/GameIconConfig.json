@@ -1,0 +1,24 @@
+{
+  "GameIconSettingList": [
+    {
+      "GameName": "WutheringWaves",
+      "Show": true
+    },
+    {
+      "GameName": "GenshinImpact",
+      "Show": true
+    },
+    {
+      "GameName": "HonkaiStarRail",
+      "Show": true
+    },
+    {
+      "GameName": "ZenlessZoneZero",
+      "Show": true
+    },
+    {
+      "GameName": "SnowbreakContainmentZone",
+      "Show": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "experimental",
+  "displayName": "Proton Experimental",
+  "sources": [
+    {
+      "provider": "github_releases",
+      "repo": "Open-Wine-Components/umu-proton",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": -1,
+      "assetPattern": "(?i)\\.(tar\\.(gz|xz)|zip)$",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": true,
+      "enabled": true,
+      "note": "Default experimental-like source for non-Steam environments"
+    }
+  ]
+}

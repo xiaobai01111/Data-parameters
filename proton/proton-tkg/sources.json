@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "proton-tkg",
+  "displayName": "Proton-TKG",
+  "sources": [
+    {
+      "provider": "github_actions",
+      "repo": "Frogging-Family/wine-tkg-git",
+      "endpoint": "https://api.github.com/repos/Frogging-Family/wine-tkg-git/actions/workflows/29873769/runs",
+      "urlTemplate": "https://nightly.link/Frogging-Family/wine-tkg-git/actions/runs/{id}/proton-tkg-build.zip",
+      "assetIndex": 0,
+      "assetPattern": ".*",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "ProtonPlus github-action source"
+    }
+  ]
+}

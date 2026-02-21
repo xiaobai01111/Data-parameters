@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "proton-sarek",
+  "displayName": "Proton-Sarek",
+  "sources": [
+    {
+      "provider": "github_releases",
+      "repo": "pythonlover02/Proton-Sarek",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": 1,
+      "assetPattern": ".*",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "ProtonPlus default source"
+    }
+  ]
+}

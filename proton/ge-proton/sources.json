@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "ge-proton",
+  "displayName": "GE-Proton",
+  "sources": [
+    {
+      "provider": "github_releases",
+      "repo": "GloriousEggroll/proton-ge-custom",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": 1,
+      "assetPattern": "(?i)\\.tar\\.(gz|xz)$",
+      "tagPattern": "(?i)^GE-Proton",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "ProtonPlus default source"
+    }
+  ]
+}

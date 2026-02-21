@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "familyKey": "dw-proton",
+  "displayName": "DW-Proton",
+  "sources": [
+    {
+      "provider": "forgejo_releases",
+      "repo": "dawn-winery/dwproton",
+      "endpoint": "https://dawn.wine/api/v1/repos/dawn-winery/dwproton/releases",
+      "urlTemplate": "",
+      "assetIndex": 1,
+      "assetPattern": "(?i)\\.tar\\.(gz|xz)$",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": true,
+      "note": "ProtonPlus Forgejo source"
+    },
+    {
+      "provider": "github_releases",
+      "repo": "AUNaseef/proton-ge-custom",
+      "endpoint": "",
+      "urlTemplate": "",
+      "assetIndex": -1,
+      "assetPattern": "(?i)\\.tar\\.(gz|xz)$",
+      "tagPattern": ".*",
+      "maxCount": 20,
+      "includePrerelease": false,
+      "enabled": false,
+      "note": "Deprecated upstream (404), kept for compatibility"
+    }
+  ]
+}
