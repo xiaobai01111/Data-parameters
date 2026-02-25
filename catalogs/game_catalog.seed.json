@@ -5,10 +5,6 @@
       "displayNameEn": "Wuthering Waves"
     },
     {
-      "canonicalKey": "GenshinImpact",
-      "displayNameEn": "Genshin Impact"
-    },
-    {
       "canonicalKey": "HonkaiStarRail",
       "displayNameEn": "Honkai: Star Rail"
     },
@@ -153,46 +149,6 @@
       "telemetryDlls": [
         "ZenlessZoneZero_Data/Plugins/x86_64/Telemetry.dll",
         "ZenlessZoneZero_Data/Plugins/x86_64/telemetry.dll"
-      ]
-    },
-    {
-      "id": "GenshinImpact",
-      "displayNameEn": "Genshin Impact",
-      "supported": true,
-      "defaultFolder": "GenshinImpact",
-      "downloadServers": [
-        {
-          "id": "cn",
-          "label": "国服",
-          "launcherApi": "https://hyp-api.mihoyo.com/hyp/hyp-connect/api/getGamePackages?launcher_id=jGHBHlcOq1",
-          "bizPrefix": "hk4e_cn"
-        },
-        {
-          "id": "global",
-          "label": "国际服",
-          "launcherApi": "https://sg-hyp-api.hoyoverse.com/hyp/hyp-connect/api/getGamePackages?launcher_id=VYTpXlbWo8",
-          "bizPrefix": "hk4e_global"
-        }
-      ],
-      "audioLanguages": [
-        { "code": "zh-cn", "label": "中文" },
-        { "code": "en-us", "label": "English" },
-        { "code": "ja-jp", "label": "日本語" },
-        { "code": "ko-kr", "label": "한국어" }
-      ],
-      "telemetryServers": [
-        "log-upload.mihoyo.com",
-        "uspider.yuanshen.com",
-        "log-upload-os.hoyoverse.com",
-        "overseauspider.yuanshen.com",
-        "sg-public-data-api.hoyoverse.com",
-        "public-data-api.mihoyo.com"
-      ],
-      "telemetryDlls": [
-        "GenshinImpact_Data/Plugins/x86_64/Telemetry.dll",
-        "GenshinImpact_Data/Plugins/x86_64/telemetry.dll",
-        "YuanShen_Data/Plugins/x86_64/Telemetry.dll",
-        "YuanShen_Data/Plugins/x86_64/telemetry.dll"
       ]
     },
     {
