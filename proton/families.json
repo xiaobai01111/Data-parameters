@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "families": [
     {
       "familyKey": "official",
@@ -74,24 +74,6 @@
         "(?i)sarek.*async",
         "(?i)proton-sarek-async"
       ],
-      "builtin": true
-    },
-    {
-      "familyKey": "proton-tkg",
-      "displayName": "Proton-TKG",
-      "enabled": true,
-      "sortOrder": 90,
-      "detectPatterns": [
-        "(?i)tkg"
-      ],
-      "builtin": true
-    },
-    {
-      "familyKey": "custom",
-      "displayName": "Custom",
-      "enabled": true,
-      "sortOrder": 100,
-      "detectPatterns": [],
       "builtin": true
     }
   ]

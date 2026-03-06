@@ -106,7 +106,9 @@
         "log-upload-os.hoyoverse.com",
         "overseauspider.yuanshen.com",
         "sg-public-data-api.hoyoverse.com",
-        "public-data-api.mihoyo.com"
+        "public-data-api.mihoyo.com",
+        "globaldp-prod-cn01.bhsr.com",
+        "dump.gamesafe.qq.com"
       ],
       "telemetryDlls": [
         "StarRail_Data/Plugins/x86_64/Telemetry.dll",
@@ -144,7 +146,9 @@
         "log-upload-os.hoyoverse.com",
         "overseauspider.yuanshen.com",
         "sg-public-data-api.hoyoverse.com",
-        "public-data-api.mihoyo.com"
+        "public-data-api.mihoyo.com",
+        "globaldp-prod-cn01.bhsr.com",
+        "dump.gamesafe.qq.com"
       ],
       "telemetryDlls": [
         "ZenlessZoneZero_Data/Plugins/x86_64/Telemetry.dll",
