@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "identities": [
     {
       "canonicalKey": "WutheringWaves",
@@ -33,6 +33,7 @@
       "id": "WutheringWaves",
       "displayNameEn": "Wuthering Waves",
       "supported": true,
+      "migotoSupported": true,
       "requireProtectionBeforeLaunch": false,
       "defaultUmuRun": true,
       "forceDirectProton": false,
@@ -80,6 +81,7 @@
       "id": "HonkaiStarRail",
       "displayNameEn": "Honkai: Star Rail",
       "supported": true,
+      "migotoSupported": true,
       "defaultFolder": "StarRail",
       "downloadServers": [
         {
@@ -120,6 +122,7 @@
       "id": "ZenlessZoneZero",
       "displayNameEn": "Zenless Zone Zero",
       "supported": true,
+      "migotoSupported": true,
       "defaultFolder": "ZenlessZoneZero",
       "downloadServers": [
         {
@@ -160,6 +163,7 @@
       "id": "SnowbreakContainmentZone",
       "displayNameEn": "Snowbreak: Containment Zone",
       "supported": true,
+      "migotoSupported": false,
       "defaultFolder": "SnowbreakContainmentZone",
       "downloadServers": [
         {
@@ -177,6 +181,7 @@
       "id": "ArknightsEndfield",
       "displayNameEn": "Arknights: Endfield",
       "supported": true,
+      "migotoSupported": true,
       "defaultFolder": "ArknightsEndfield",
       "downloadMode": "launcher_installer",
       "defaultUmuRun": false,
@@ -203,6 +208,7 @@
       "id": "Arknights",
       "displayNameEn": "Arknights",
       "supported": true,
+      "migotoSupported": false,
       "defaultFolder": "Arknights",
       "downloadMode": "launcher_installer",
       "defaultUmuRun": false,
